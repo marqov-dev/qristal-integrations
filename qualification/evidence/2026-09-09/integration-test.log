@@ -1,0 +1,1 @@
+PASS: ['qpp:sample_x0', 'qpp:sample_x1', 'qpp:parameter_batch', 'qpp:estimate_IZ', 'qpp:estimate_ZI', 'qpp:estimate_IX', 'qpp:estimate_XI', 'qpp:estimate_IY', 'aer:sample_x0', 'aer:sample_x1', 'aer:parameter_batch', 'aer:estimate_IZ', 'aer:estimate_ZI', 'aer:estimate_IX', 'aer:estimate_XI', 'aer:estimate_IY']

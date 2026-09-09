@@ -202,7 +202,8 @@ class QristalEstimator(BaseEstimatorV1):
         meas_circuit = circuit.copy()
 
         # Apply basis change gates based on Pauli terms
-        for idx, pauli_char in enumerate(pauli.to_label()):
+        # Qiskit labels put qubit 0 at the right-hand end.
+        for idx, pauli_char in enumerate(reversed(pauli.to_label())):
             if pauli_char == 'X':
                 meas_circuit.ry(-1.0*np.pi/2.0, idx)
             elif pauli_char == 'Y':
