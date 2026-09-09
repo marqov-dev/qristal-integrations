@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/work/qristal-integrations/qualification/cpu_smoke.py", line 40, in <module>
+    assert abs(value - expected) < .05, (backend, label, value, expected)
+AssertionError: ('qpp', 'IX', 0.00244140625, 1)

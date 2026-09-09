@@ -1,0 +1,26 @@
+Collecting qiskit==1.2.0
+  Using cached qiskit-1.2.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.8 MB)
+Collecting numpy==1.26.4
+  Using cached numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+Collecting rustworkx>=0.15.0
+  Using cached rustworkx-0.18.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.4 MB)
+Collecting symengine>=0.11
+  Using cached symengine-0.14.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (50.4 MB)
+Collecting stevedore>=3.0.0
+  Using cached stevedore-5.8.0-py3-none-any.whl (54 kB)
+Collecting python-dateutil>=2.8.0
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting dill>=0.3
+  Using cached dill-0.4.1-py3-none-any.whl (120 kB)
+Collecting sympy>=1.3
+  Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Collecting typing-extensions
+  Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Collecting scipy>=1.5
+  Using cached scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+Collecting six>=1.5
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting mpmath<1.4,>=1.1.0
+  Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Installing collected packages: mpmath, typing-extensions, sympy, symengine, stevedore, six, numpy, dill, scipy, rustworkx, python-dateutil, qiskit
+Successfully installed dill-0.4.1 mpmath-1.3.0 numpy-1.26.4 python-dateutil-2.9.0.post0 qiskit-1.2.0 rustworkx-0.18.1 scipy-1.15.3 six-1.17.0 stevedore-5.8.0 symengine-0.14.1 sympy-1.14.0 typing-extensions-4.16.0
